@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acme Rocket</title>
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/main.js" defer></script>
+  </head>
+  <body class="min-h-screen dark:bg-black dark:text-white">
+    <header class="sticky top-0 bg-teal-700">
+      <section
+        class="mx-auto flex max-w-4xl scroll-mt-40 items-center justify-between p-4"
+      >
+        <h1 class="text-3xl font-medium text-white">
+          <a href="#hero">🚀 Acme Rockets</a>
+        </h1>
+        <button
+          id="hamburger-button"
+          class="relative h-8 w-8 text-3xl text-white md:hidden"
+        >
+          <div
+            class="before:content[''] absolute top-4 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500"
+          ></div>
+        </button>
+        <nav
+          class="hidden space-x-8 text-lg text-white md:block"
+          aria-label="main"
+        >
+          <a href="#rockets">Our Rockets </a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact Us</a>
+        </nav>
+      </section>
+      <section
+        id="mobile-menu"
+        class="top-68 absolute hidden min-h-screen w-full origin-top animate-open-menu flex-col bg-black p-4"
+      >
+        <!-- <button class="self-end text-5xl">&times;</button> -->
+        <nav class="flex flex-col items-center gap-6 py-6 text-3xl">
+          <a href="#hero" class="hover:text-teal-500">Home</a>
+          <a href="#rockets" class="hover:text-teal-500">Our Rockets </a>
+          <a href="#testimonials" class="hover:text-teal-500">Testimonials</a>
+          <a href="#contact" class="hover:text-teal-500">Contact Us</a>
+          <a href="#footer" class="hover:text-teal-500">Footer</a>
+        </nav>
+      </section>
+    </header>
+    <main class="mx-auto max-w-4xl">
+      <section
+        id="hero"
+        class="widescreen:section-min-height tallscreen::section-min-height my-8 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-12 text-center sm:flex-row"
+      >
+        <article class="sm:w-1/2">
+          <h2
+            class="mb-3 max-w-md text-3xl font-bold text-slate-900 dark:text-white sm:text-left"
+          >
+            We Boldy Go
+            <span class="text-indigo-700 dark:text-indigo-400"
+              >Where No Rocket</span
+            >
+            Has Gone Before...
+          </h2>
+          <p
+            class="mb-3 max-w-md text-xl text-slate-700 dark:text-slate-300 sm:text-left"
+          >
+            We're building reockets for the next century today. From the moon to
+            Mars, Jupiter and Beyond
+          </p>
+          <p
+            class="max-w-md text-xl text-slate-700 dark:text-slate-400 sm:text-left"
+          >
+            Think Acme Rockets
+          </p>
+        </article>
+        <img src="./img/rocketdab.png" alt="Rocket Dab" class="w-1/2" />
+      </section>
+
+      <hr class="mx-auto w-1/2 text-slate-900 dark:text-slate-500" />
+
+      <section
+        id="rockets"
+        class="widescreen:section-min-height tallscreen::section-min-height my-12 flex scroll-mt-20 flex-col justify-center p-6 sm:mb-12 sm:mt-0 sm:scroll-mt-10"
+      >
+        <h2
+          class="mb-12 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
+        >
+          Our Rockets
+        </h2>
+        <ul
+          class="mx-auto flex w-2/3 list-none flex-col gap-8 sm:w-5/6 sm:flex-row"
+        >
+          <li
+            class="flex flex-col rounded-3xl border border-slate-900 p-8 shadow-xl dark:border-slate-500"
+          >
+            <img
+              src="./img/rocketman.png"
+              alt="Rocket Man"
+              class="mx-auto mb-3 w-1/2"
+            />
+            <h3
+              class="mb-1 text-center text-2xl text-slate-900 dark:text-white"
+            >
+              Explorer
+            </h3>
+            <p
+              class="hidden text-center text-2xl text-slate-500 dark:text-slate-500 sm:block"
+            >
+              $30
+            </p>
+            <h2
+              class="text-center text-xl text-slate-400 dark:text-slate-500 sm:hidden"
+            >
+              Affordable Rocket
+            </h2>
+          </li>
+          <li
+            class="flex flex-col rounded-3xl border border-slate-900 p-8 shadow-xl dark:border-slate-500"
+          >
+            <img
+              src="./img/rocketride.png"
+              alt="Adventurer"
+              class="mx-auto mb-3 w-1/2"
+            />
+            <h3
+              class="mb-1 text-center text-2xl text-slate-900 dark:text-white"
+            >
+              Adventurer
+            </h3>
+            <p
+              class="hidden text-center text-2xl text-slate-500 dark:text-slate-500 sm:block"
+            >
+              $100
+            </p>
+            <h2
+              class="text-center text-xl text-slate-400 dark:text-slate-500 sm:hidden"
+            >
+              Best Selling Rocket!
+            </h2>
+          </li>
+          <li
+            class="flex flex-col rounded-3xl border border-slate-900 p-8 shadow-xl dark:border-slate-500"
+          >
+            <img
+              src="./img/rocketlaunch.png"
+              alt="Infinity"
+              class="mx-auto mb-3 w-1/2"
+            />
+            <h3
+              class="mb-1 text-center text-2xl text-slate-900 dark:text-white"
+            >
+              Infinity
+            </h3>
+            <p
+              class="hidden text-center text-2xl text-slate-500 dark:text-slate-500 sm:block"
+            >
+              $1000
+            </p>
+            <h2
+              class="text-center text-xl text-slate-400 dark:text-slate-500 sm:hidden"
+            >
+              Affordable Exploration
+            </h2>
+          </li>
+        </ul>
+      </section>
+
+      <hr class="mx-auto w-1/2 text-slate-900 dark:text-slate-500" />
+
+      <section
+        id="testimonials"
+        class="widescreen:section-min-height tallscreen::section-min-height my-12 scroll-mt-20 p-6"
+      >
+        <h2
+          class="text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
+        >
+          Testimonials
+        </h2>
+        <figure class="my-6 p-4">
+          <blockquote
+            class="rounded-3xl border border-teal-700 bg-teal-500 px-8 py-10 shadow-md dark:bg-black"
+          >
+            <p class="text-xl text-white dark:text-slate-400 sm:text-2xl">
+              &#10077; Acme has always been there for me. Their Explorer Rocket
+              arrived in a wooden crate as expected. Life Long Customer! A++
+              Shopping experience.&#10078;
+            </p>
+          </blockquote>
+          <figcaption
+            class="mt-2 text-right text-xl italic text-indigo-700 dark:text-indigo-400 sm:text-2xl"
+          >
+            &#8212; Wile E. Ceyoto, Genius
+          </figcaption>
+        </figure>
+        <figure class="my-6 p-4">
+          <blockquote
+            class="rounded-3xl border border-teal-700 bg-teal-500 px-8 py-10 shadow-md dark:bg-black"
+          >
+            <p class="text-xl text-white dark:text-slate-400 sm:text-2xl">
+              &#10077; The Acme Adventurer Rocket has thwarted my illumium Q-36
+              Explosive Space Modulator on several ocassions.<i
+                >This makes me very angry</i
+              >Nevertheless! K9 and I awarded Acme the Martian contract for
+              space exploration.&#10078;
+            </p>
+          </blockquote>
+          <figcaption
+            class="mt-2 text-right text-xl italic text-indigo-700 dark:text-indigo-400 sm:text-2xl"
+          >
+            &#8212; Marvin The Martian & K9
+          </figcaption>
+        </figure>
+        <figure class="my-6 p-4">
+          <blockquote
+            class="rounded-3xl border border-teal-700 bg-teal-500 px-8 py-10 shadow-md dark:bg-black"
+          >
+            <p class="text-xl text-white dark:text-slate-400 sm:text-2xl">
+              &#10077; I knew I not only wanted &#8212; I needed &#8212; Acme's
+              Infinity rocket for my mission in space. Acme delivered in one
+              day! Nothing says, <i>"Take me to your leader"</i> like Acme's
+              InfinityRocket 👨‍🚀&#10078;
+            </p>
+          </blockquote>
+          <figcaption
+            class="mt-2 text-right text-xl italic text-indigo-700 dark:text-indigo-400 sm:text-2xl"
+          >
+            &#8212; Buzz Lightyear
+          </figcaption>
+        </figure>
+      </section>
+
+      <hr class="mx-auto w-1/2 text-slate-900 dark:text-slate-500" />
+
+      <section
+        id="contact"
+        class="widescreen:section-min-height tallscreen::section-min-height my-12 scroll-mt-20 p-6"
+      >
+        <h2
+          class="text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
+        >
+          Contact Us
+        </h2>
+        <form action="" class="my-10 flex flex-col gap-4">
+          <label for="subject" class="sm:text:2xl text-xl">Subject:</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Enter Subject"
+            class="dark:border-non w-full rounded-xl border border-solid border-slate-900 p-3 text-xl text-black"
+            required
+          />
+          <label for="message" class="sm:text:2xl text-xl">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter Your Message"
+            class="dark:border-non w-full rounded-xl border border-solid border-slate-900 p-3 text-xl text-black"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+          <button
+            class="w-48 rounded-xl border border-solid border-teal-800 bg-teal-700 p-3 text-white hover:bg-teal-600 active:bg-teal-500"
+          >
+            Submit
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer id="footer" class="bg-teal-700 p-12 text-white">
+      <section
+        class="mx-auto flex max-w-4xl flex-col text-center md:flex-row md:justify-between"
+      >
+        <address>
+          <h2>Acme Rocket-Powered Products, Inc.</h2>
+          555 Astro Way<br />
+          Email:
+          <a href="mailto:inquiries@acmerockets.com"
+            >Inquiries@AcmeRockets.com</a
+          ><br />
+          Phone: <a href="tel:+1555555555">(555) 555-5555</a>
+        </address>
+        <nav class="hidden flex-col gap-2 md:flex" aria-label="footer">
+          <a href="#rockets">🚀 Our Rockets </a>
+          <a href="#testimonials">📃 Testimonials</a>
+          <a href="#contact">📞 Contact Us</a>
+        </nav>
+        <div>
+          <p class="mt-6 text-center md:text-right">
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            All Rights Reserved
+          </p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
