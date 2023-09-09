@@ -28,7 +28,7 @@ You can use any development server of your choice. For example, if you're using 
 
 # Access the Website:
 
-Open your web browser and go to http://localhost:<port> (mine was 5500 for live server) where <port> is the port your development server is running on. Typically, it's http://localhost:3000 or http://localhost:8080. You should now see the Acme Rocket Website.
+Open your web browser and go to http://localhost:port (mine was 5500 for live server) where <port> is the port your development server is running on. You should now see the Acme Rocket Website.
 
 
 
