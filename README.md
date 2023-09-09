@@ -11,3 +11,25 @@ Animations: Enjoy subtle animations throughout the website that add a touch of d
 
 Light and Dark Modes: The Acme Rockets Website adapts to your system's preferences, offering both light and dark modes for comfortable browsing, day or night.
 
+# Usage 
+To get started with the Acme Rocket Website project, follow these steps:
+
+1. Clone the Repository
+2. Navigate to the Project Directory 
+3. Install Dependencies: Make sure you have Node.js and npm (Node Package Manager) installed on your system. Then, run the following command to install project dependencies:
+    - npm install
+4. Run Tailwind CSS Build: To compile the Tailwind CSS styles, run the following command
+    - npm run tailwind
+      This command will watch for changes in your styles and update the style.css file in the ./build/css/ directory.
+
+# Launch a Development Server:
+
+You can use any development server of your choice. For example, if you're using Visual Studio Code, you can install the "Live Server" extension, right-click on your index.html file, and choose "Open with Live Server." This will launch your website on a local server.
+
+# Access the Website:
+
+Open your web browser and go to http://localhost:<port> where <port> is the port your development server is running on. Typically, it's http://localhost:3000 or http://localhost:8080. You should now see the Acme Rocket Website.
+
+
+
+
