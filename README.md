@@ -20,7 +20,7 @@ To get started with the Acme Rocket Website project, follow these steps:
     - npm install
 4. Run Tailwind CSS Build: To compile the Tailwind CSS styles, run the following command
     - npm run tailwind
-      This command will watch for changes in your styles and update the style.css file in the ./build/css/ directory.
+    - This command will watch for changes in your styles and update the style.css file in the ./build/css/ directory.
 
 # Launch a Development Server:
 
